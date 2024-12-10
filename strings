@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string string_1, string_2, str;
+	cin >> string_1 >> string_2;
+    cout << string_1.size() << " " << string_2.size() << endl;
+    str = string_1 + string_2;
+    cout << str << endl;
+    swap(string_1[0], string_2[0]);
+    cout << string_1 << " " << string_2 << endl;
+
+    return 0;
+}
